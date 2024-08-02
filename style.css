@@ -1,0 +1,703 @@
+*{
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+  font-family: 'Raleway', sans-serif;
+}
+
+body{
+  background-color: #f8f8f8;
+  overflow-x: hidden;
+}
+
+header{
+  height: 100vh;
+  width: 100%;
+  position: relative;
+  border-left: 0.5px solid #B8BABE;
+}
+
+nav{
+  margin: 0 120px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px 0;
+  border-bottom: 0.5px solid #B8BABE;
+}
+
+.logo{
+  width: 36px;
+  height: 36px;
+}
+
+nav ul{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 28px;
+}
+
+nav li{
+  font-size: 16px;
+  font-weight: 600;
+}
+
+nav li a{
+  color: #12171F;
+}
+
+nav .btn_1{
+  font-size: 16px;
+  font-weight: 600;
+  color:#0E1218;
+  background-color: #f8f8f8;
+  border: none;
+  outline: none;
+  border-right: 2px solid #0E1218;
+  margin-right: 20px;
+  padding-right: 20px;
+  line-height: 32px;
+}
+
+nav .btn_2{
+  font-size: 16px;
+  font-weight: 600;
+  border: none;
+  outline: none;
+  background-color: #0E1218;
+  margin-right: 20px;
+  color: #fff;
+  border-radius: 42px;
+  padding: 10px 26px;
+}
+
+.btns{
+  margin-left: 140px;
+}
+.hero{
+  margin: 70px 120px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.text_box{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.text_box h1{
+  font-size: 115px;
+  font-weight: 400;
+  max-width: 700px;
+  line-height: 100px;
+  color: #181D28;
+}
+
+.text_box p{
+  max-width: 400px;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+  color:#484D56;
+}
+
+.discover{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 16px;
+}
+
+.discover span{
+  font-size: 16px;
+  font-weight: 600;
+  color: #181D28;
+}
+
+.discover i{
+  padding: 10px;
+  border-radius: 50%;
+  border: 1px solid #181D28;
+}
+
+.img_box {
+  display: flex;
+
+}
+
+.img_box img{
+  width: 250px;
+  object-fit: contain;
+}
+
+.img_box .bg_1{
+  position: absolute;
+  margin-top: 11%;
+  margin-left: -20%;
+}
+
+.img_box .bg_2{
+  margin: 0px;
+}
+
+.cle{
+  position: absolute;
+  width: 139px;
+  height: 120px;
+  margin-top: 1%;
+  margin-left: -14%;
+}
+
+.collections{
+  margin: 60px 120px;
+}
+
+.collections h2{
+  font-weight: 700;
+  font-size: 30px;
+  color: #0E1218;
+  margin-bottom: 16px;
+}
+
+.btn{
+  margin-bottom: 32px;
+}
+
+.collections .btn{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.btn button{
+  margin-right: 8px;
+  border-radius: 12px;
+  padding: 10px 26px;
+  outline: none;
+  border: none;
+  color: #0E1218;
+  font-weight: 600;
+  font-size: 14px;
+  background-color: #E8E9EA;
+  cursor: pointer;
+}
+
+.act{
+  background-color: #12171F !important;
+  color: #f8f8f8 !important;
+}
+
+.btn a{
+  font-size: 14px;
+  font-weight: 600;
+  color: #1A202C;
+  border-bottom: 1px solid #1A202C;
+}
+
+.img_collections{
+  display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-wrap: wrap;
+}
+
+.collection{
+  border: 1px solid#B8BABE;
+  padding: 12px;
+  border-radius: 20px;
+  width: calc(26% - 20px);
+  cursor: pointer;
+}
+
+.collection img{
+  height: 193px;
+  width: 238px;
+  object-fit: cover;
+}
+
+.title{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 16px;
+  font-weight: 700;
+  margin: 10px 0;
+}
+
+.title img{
+  height: 20px;
+  width: 20px;
+}
+
+.title :nth-child(2){
+  display: flex;
+  justify-content: center;
+
+}
+
+.collection button{
+  border: 1px solid#0E1218;
+  border-radius: 12px;
+  padding: 10px 26px;
+  color: #0E1218;
+  font-size: 16px;
+  font-weight: 600;
+  background-color: #f8f8f8;
+  width: 100%;
+}
+
+.create{
+  margin: 60px 120px;
+}
+
+.create h2{
+  font-weight: 700;
+  font-size: 30px;
+  color: #0E1218;
+  margin-bottom: 16px;
+}
+
+.create_box{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+	flex-wrap: wrap;
+}
+
+.sell_box{
+  background-color: #E8E9EA;
+  border-radius: 24px;
+  padding: 24px;
+  width: calc(26% - 20px);
+  cursor: pointer;
+}
+
+.sell_box img{
+  background-color:#181D28;
+  border-radius: 8px;
+  padding: 10px;
+  margin-bottom: 8px;
+}
+
+.sell_box h3{
+  color:#0E1218;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.sell_box p{
+  color: #484D56;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  margin-top: 10px;
+}
+
+.last_row{
+  margin: 60px 120px;
+}
+
+footer{
+  background-image: url(images/img_footer.svg);
+  background-size: cover;
+  background-position: center 35%;
+  object-fit: cover;
+  border-radius: 32px;
+  padding: 40px 0;
+  margin-bottom: 60px;
+  text-align: center;
+}
+
+footer h2{
+  color: #fff;
+  font-size: 64px;
+  font-weight: 500;
+}
+
+footer h4{
+  color: #fff;
+  font-size: 20px;
+  font-weight: 600;
+  margin: 20px 0;
+}
+
+footer button{
+  border: none;
+  outline: none;
+  background-color: #fff;
+  padding: 10px 26px;
+  border-radius: 42px;
+  color:#0E1218;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.last_row img{
+  height: 35.69px;
+  width: 36px;
+  margin-bottom: 6px;
+}
+
+.row{
+  padding-top: 40px;
+  border-top: 0.5px solid #B8BABE;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.row h3{
+  color:#181D28;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.row a{
+  margin-left: 30px;
+  color: #000;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+#ham-menu{
+  display: none;
+}
+nav ul.active{
+  left: 0;
+}
+
+
+/* responsivité */
+
+@media screen and (max-width: 1024px) {
+  nav{
+    margin: 12px 46px;
+  }
+
+  nav i{
+    background-color: #E8E9EA;
+    padding: 8px;
+    border-radius: 8px;
+  }
+
+  nav a{
+    font-size: 20px;
+  }
+  nav ul, .btns{
+    display: block;
+  }
+
+  #ham-menu{
+    display: block;
+    cursor: pointer;
+  }
+
+  nav ul{
+    padding: 60px 46px;
+    background-color: #f8f8f8;
+    position: fixed;
+    left: -100vw;
+    top: 73.6px;
+    width: 100vw;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    transition: 1s;
+    z-index: 1;
+  }
+
+  nav .btns{
+    margin-top: 40px;
+    margin-left: 30px;
+  }
+
+  .hero{
+    margin: 120px 46px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+
+  .img_box{
+    margin-top: 20px;
+    gap: 20px;
+  }
+
+  .collections{
+    margin: 0 46px;
+  }
+
+  .img_collections{
+    margin: 0 35px;
+    gap: 20px;
+  }
+  .collection{
+    width: calc(50% - 10px);
+  }
+
+  .collection .cc{
+    height: 193px;
+    width: 100%;
+    object-fit: cover;
+  }
+
+  .create{
+    margin: 60px 46px;
+  }
+  .create_box{
+    margin: 0 46px;
+    gap: 20px;
+  }
+
+  .sell_box{
+    width: calc(50% - 10px);
+  }
+
+  .last_row{
+    margin: 0 35px;
+  }
+
+  footer{
+    height: 336px;
+  }
+
+  .row{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 20px;
+    padding: 32px 0;
+  }
+
+  .row .last_links a{
+    margin: 0;
+  }
+  
+  footer h2{
+    margin-bottom: 20px;
+  }
+
+  footer h4{
+    margin-bottom: 40px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  nav{
+    margin: 12px 15px;
+  }
+
+  nav .btn_1{
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 31px;
+  }
+  
+  nav .btn_2{
+    font-size: 15px;
+    padding: 8px 24px;
+  }
+  .hero{
+    margin: 130px 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 100%;
+    overflow: hidden;
+  }
+  .text_box h1{
+    max-width: 400px;
+    font-size: 62px;
+    font-weight: 400;
+    line-height: 82px;
+  }
+
+  .text_box p{
+    font-size: 14px;
+    font-weight: 600;
+    max-width: 300px;
+  }
+
+  .discover span{
+    font-size: 16px;
+    font-weight: 600;
+  }
+
+  .img_box .bg_1{
+    position: absolute;
+    margin-top: 50%;
+    margin-left: 5%;
+  }
+  
+  .img_box .bg_2{
+    margin-left: 120%;
+    margin-top: 40%;
+  }
+  
+  .cle{
+    position: absolute;
+    width: 139px;
+    height: 120px;
+    margin-top: 20%;
+    margin-left: 20%;
+  }
+  .img_box {
+    display: flex;
+    gap: 40px;
+  }
+
+  .collections{
+    margin: 100% 15px 0 15px;
+  }
+
+  .collection{
+    width: 100%;
+  }
+
+  .btn{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+
+  }
+
+  .btt{
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    gap: 5px;
+  }
+
+  .btn button{
+    margin-bottom: 10px;
+  }
+  .create{
+    margin: 60px 0;
+  }
+  
+  .create h2{
+    margin: 15px;
+  }
+
+  .sell_box{
+    width: 100%;
+    padding: 40px 25px;
+  }
+
+  .sell_box h3{
+    font-size: 22px;
+    font-weight: 700;
+  }
+
+  .sell_box p{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+    margin: 0;
+  }
+
+  footer{
+    height: 334px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  footer h2{
+    font-weight: 500;
+    font-size: 28px;
+  }
+  
+  footer h4{
+    font-size: 12px;
+    font-weight: 600;
+  }
+  
+  .row{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 32px 0;
+  }
+
+  .last_row{
+    margin: 0 15px;
+  }
+  .row .last_links a{
+    margin: 0 10px;
+  }
+}
+
+@media screen and (max-width: 390px) {
+  
+  nav .btn_1{
+    font-size: 10px;
+    font-weight: 600;
+    line-height: 31px;
+  }
+  
+  nav .btn_2{
+    font-size: 10px;
+    padding: 7px 22px;
+  }
+
+  .text_box h1{
+    max-width: 400px;
+    font-size: 52px;
+    font-weight: 400;
+    line-height: 82px;
+  }
+
+
+  .img_box .bg_1{
+    position: absolute;
+    margin-top: 60%;
+    margin-left: 5%;
+  }
+  
+  .img_box .bg_2{
+    margin-left: 120%;
+    margin-top: 50%;
+  }
+  
+  .cle{
+    position: absolute;
+    width: 139px;
+    height: 120px;
+    margin-top: 30%;
+    margin-left: 20%;
+  }
+  .btn{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+  }
+
+  .btn button{
+    padding: 8px 24px;
+    font-weight: 600;
+    font-size: 12px;
+  }
+
+  .btt{
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    gap: ;
+  }
+
+  .collections{
+    margin-top: 125%;
+  }
+}
